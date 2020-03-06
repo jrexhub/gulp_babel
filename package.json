@@ -2,13 +2,24 @@
   "name": "gulp_babel",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modernblue/gulp_babel.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modernblue/gulp_babel/issues"
+  },
+  "homepage": "https://github.com/modernblue/gulp_babel#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0"
   }
 }
